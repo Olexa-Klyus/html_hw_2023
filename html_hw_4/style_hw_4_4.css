@@ -1,0 +1,78 @@
+.common {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-top: solid rgba(123, 81, 144, 0.56) 10px;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(218, 143, 255, 0.1);
+}
+
+.field {
+    margin: 10px;
+    border: none;
+    border-bottom: rgba(203, 203, 203, 0.5) solid 1px;
+}
+
+h2 {
+    margin-top: 10%;
+}
+
+#submit {
+    background-color: rgba(218, 143, 255, 0.1);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: rgba(132, 115, 141);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#reset {
+    background-color: rgba(218, 143, 255, 0.1);
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    color: rgba(132, 115, 141);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.checkbox{
+    margin: 3% 3% 3% 2%;
+}
+
+#kyivstar{
+    margin-top: 5%;
+}
+
+#submit{
+    margin-top: 3%;
+}
+
+#submit:hover{
+    background-color: rgba(92,81,100,0.93);
+    color: white;
+}
+
+#reset:hover{
+    background-color: rgba(92,81,100,0.93);
+    color: white;
+}
+
+
+
