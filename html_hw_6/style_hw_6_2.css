@@ -30,14 +30,7 @@ body {
     flex-direction: column;
 }
 
-.composite-upper {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-}
-
-.composite-lower {
+.composite-upper, .composite-lower {
     width: 100%;
     height: 50%;
     display: flex;
