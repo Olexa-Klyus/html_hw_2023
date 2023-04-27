@@ -1,0 +1,41 @@
+@media screen and (max-width: 750px) {
+    .upper {
+        height: 20%;
+    }
+
+    .lower {
+        height: 80%;
+        flex-direction: column;
+    }
+
+    .composite {
+        height: 70%;
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+        height: 30%;
+    }
+
+    .first {
+        height: 50%;
+        width: 50%;
+        background-color: rgba(149, 253, 74, 0.4);
+        border-radius: 15%;
+    }
+
+    .second {
+        height: 50%;
+        width: 50%;
+        background-color: rgba(101, 17, 253, 0.4);
+        border-radius: 15%;
+    }
+
+    .third {
+        height: 50%;
+        width: 50%;
+        background-color: rgba(131, 167, 253, 0.4);
+        border-radius: 15%;
+    }
+}
